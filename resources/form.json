@@ -1,0 +1,33 @@
+{
+    "title": "About Yourself",
+    "questions": [
+        {
+            "type": "free-text",
+            "question": "How old are you?"
+        },
+        {
+            "type": "date",
+            "question": "Date of birth"
+        },           
+        {
+            "type": "dropdown-list",
+            "question": "What is your position?",
+            "values": ["Teacher", "Student", "Administrator", "Scientist"]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "What is your position?",
+            "values": ["Teacher", "Student", "Administrator", "Scientist"]
+        },
+        {
+            "type": "linear-scale",
+            "question": "How do you like this app?",
+            "values": [1, 5]
+        },
+        {   
+            "type": "single-choice",
+            "question": "What is your position?",
+            "values": ["Teacher", "Student", "Administrator", "Scientist"]
+        }
+    ]
+}
